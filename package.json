@@ -1,0 +1,27 @@
+{
+  "name": "unit-testing-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "nyc --reporter=html npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangja/unit-testing-with-mocha-and-chai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangja/unit-testing-with-mocha-and-chai/issues"
+  },
+  "homepage": "https://github.com/kangja/unit-testing-with-mocha-and-chai#readme"
+}
